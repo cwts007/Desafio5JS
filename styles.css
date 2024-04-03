@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.titulo {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#todoApp {
+    max-width: 500px;
+    margin: auto;
+}
+
+.caja_entrada {
+    display: flex;
+    align-items: center;
+    border: solid 1px black;
+    background-color: rgb(8, 85, 110);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#newTask {
+    width: calc(100% - 60px);
+}
+
+button {
+    width: 60px;
+    margin: 5px;
+}
+
+#taskTable {
+    width: calc(100%);
+}
+
+#taskTable th {
+    text-align: left;
+}
+
+#taskTable td {
+    padding: 5px;
+}
+
+#taskCounter {
+    background-color: rgb(8, 85, 110);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#taskTable .completed {
+    color: green;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
